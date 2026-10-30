@@ -11,19 +11,24 @@
     body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; line-height: 1.6; color: #1d1b20; }
     h1, h2 { color: #00574F; line-height: 1.25; }
     a { color: #00897B; }
-    img { width: 96px; height: 96px; }
+    .logo { width: 96px; height: 96px; }
+    /* Insignia oficial de Google Play (sin modificar; el PNG ya trae su margen). */
+    .play-badge { display: inline-block; margin-left: -12px; }
+    .play-badge img { height: 80px; width: auto; }
     hr { margin: 3em 0; border: none; border-top: 1px solid #ccc; }
     footer { margin-top: 3em; color: #555; font-size: 0.9em; }
   </style>
 </head>
 <body>
-<img src="/marrodanapps/logo.svg" alt="Clear Expenses logo">
+<img class="logo" src="/marrodanapps/logo.svg" alt="Clear Expenses logo">
 
 <section lang="en">
   <h1>Clear Expenses</h1>
   <p>Track your income and expenses in seconds and see where your money goes. Clear Expenses is an
   Android app that works fully offline: your data is stored on your phone, with no accounts and no
   servers of its own.</p>
+  <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.dmmarrodan.myexpenses&amp;hl=en"><img
+    alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"></a>
   <ul>
     <li>Quick entry with a built-in calculator, categories with icons and colours, accounts and events.</li>
     <li>Summary and 12 reports: trends, yearly view, anomalies, fixed vs. variable spending, budgets…</li>
@@ -43,6 +48,8 @@
   <p>Registra gastos e ingresos en segundos y analiza en qué se va tu dinero. Gastos Claros es una app
   Android que funciona sin conexión: tus datos se guardan en tu móvil, sin cuentas ni servidores
   propios.</p>
+  <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.dmmarrodan.myexpenses&amp;hl=es"><img
+    alt="Disponible en Google Play" src="https://play.google.com/intl/es/badges/static/images/badges/es_badge_web_generic.png"></a>
   <ul>
     <li>Alta rápida con calculadora, categorías con iconos y colores, cuentas y eventos.</li>
     <li>Resumen y 12 informes: evolución, vista anual, anomalías, gasto fijo y variable, presupuestos…</li>
@@ -55,6 +62,7 @@
   <a href="mailto:marrodanapps@gmail.com">marrodanapps@gmail.com</a></p>
 </section>
 
-<footer>Marrodan Apps · <a href="https://marrodanapps.es/">marrodanapps.es</a></footer>
+<footer>Marrodan Apps · <a href="https://marrodanapps.es/">marrodanapps.es</a><br>
+Google Play y el logotipo de Google Play son marcas de Google LLC. Google Play and the Google Play logo are trademarks of Google LLC.</footer>
 </body>
 </html>
